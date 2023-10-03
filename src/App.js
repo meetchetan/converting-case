@@ -11,6 +11,7 @@ import LoadingBar from "react-top-loading-bar";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import PrivacyPolicy from "./components/PrivacyPolicy";
 import TermsandConditions from "./components/TermsandConditions";
+import ContactUs from "./components/ContactUs";
 
 function App() {
   const [mode, setMode] = useState("dark"); //whether dark mode is enable or not
@@ -101,6 +102,17 @@ function App() {
               element={
                 <TermsandConditions
                   heading="Terms And Condiitions"
+                  showAlert={showAlert}
+                  mode={mode}
+                />
+              }
+            ></Route>
+            <Route
+              exact
+              path="/contactus"
+              element={
+                <ContactUs
+                  heading="Contact Us"
                   showAlert={showAlert}
                   mode={mode}
                 />

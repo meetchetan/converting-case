@@ -41,13 +41,26 @@ export default function Navbar(props) {
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" aria-current="page" to="/privacypolicy">
-                Privacy Policy
+                <Link
+                  className="nav-link"
+                  aria-current="page"
+                  to="/privacypolicy"
+                >
+                  Privacy Policy
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" aria-current="page" to="/termsandcondiitions">
-                Terms & Condiitions
+                <Link
+                  className="nav-link"
+                  aria-current="page"
+                  to="/termsandcondiitions"
+                >
+                  Terms & Condiitions
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link className="nav-link" aria-current="page" to="/contactus">
+                  Contact Us
                 </Link>
               </li>
             </ul>
