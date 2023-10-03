@@ -246,7 +246,7 @@ const PrivacyPolicy = () => {
 
       <p>
         If you have any questions or suggestions about our Privacy Policy, do
-        not hesitate to contact us.
+        not hesitate to contact us by emailing at chetanplay525@gmail.com
       </p>
     </div>
   );
